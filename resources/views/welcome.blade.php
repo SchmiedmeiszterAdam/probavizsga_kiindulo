@@ -17,7 +17,7 @@
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="./js/dogaklistazasa.js" type="module"></script>
+    <!-- <script src="./js/dogaklistazasa.js" type="module"></script> -->
 </head>
 
 <body class="antialiased">
@@ -46,41 +46,6 @@
             @endif
         </section>
         <article>
-            <div class="galeria">
-                <img src="./kepek/kep_11.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_1.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_2.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_8.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_3.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_10.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_4.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_5.png" alt="Szakdolgozat kép">
-            </div>
-            <div class="galeria">
-                <img src="./kepek/kep_6.png" alt="Szakdolgozat kép">
-            </div>
-
-
-
-
-
-
-            <div class="galeria">
-            </div>
         </article>
         <footer class="kozepre">
             Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})

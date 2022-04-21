@@ -1,0 +1,89 @@
+.listaadmin {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+#szakdogak {
+    width: 100%;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+.fejlec,
+tr {
+    width: 100%;
+    min-height: 30px !important;
+}
+
+.fejlec {
+    background-color: darkgray;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.szakdoga td:nth-child(3),
+.szakdoga td:nth-child(4) {
+    color: red;
+}
+
+tr {
+    max-width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+.ujadat {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.ujadat form {
+    width: 80%;
+    justify-content: space-around;
+}
+
+form .beviteli {
+    width: 70%;
+}
+
+.reszpo {
+    display: none;
+    padding-top: 10px;
+}
+
+.sor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+@media screen and (max-width:500px) {
+    .reszpo {
+        display: block;
+    }
+    .eltun {
+        display: none;
+    }
+    .ujadat form {
+        width: 100%;
+        align-items: center;
+    }
+    .sor {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    form .beviteli {
+        width: 100%;
+    }
+}

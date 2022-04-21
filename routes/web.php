@@ -16,15 +16,17 @@ use App\Http\Controllers\UserController;
 |
 */
 
-
+Route::get('/szakdogak', [SzakdogaController::class, 'index']);
+Route::post('/szakdogak', [SzakdogaController::class, 'store']);
+Route::put('/szakdogak/{id}', [SzakdogaController::class, 'update']);
+Route::delete('/szakdogak/{id}', [SzakdogaController::class, 'destroy']);
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-
+    return view('index');
+});
 require __DIR__ . '/auth.php';
 
 require __DIR__ . '/auth.php';
